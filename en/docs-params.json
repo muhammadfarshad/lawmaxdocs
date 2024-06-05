@@ -1,0 +1,12 @@
+{
+  "parameters": [
+    {
+      "name": "Category",
+      "displayName": "Law Max Category",
+      "values": {
+        "LawMaxFirm": "Law Firms",
+        "LawMaxCompany": "Company"
+      }
+    }
+  ]
+}

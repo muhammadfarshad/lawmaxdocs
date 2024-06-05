@@ -1,97 +1,92 @@
-# ABP Documentation
+# LawMaxDocs
 
-ABP Framework offers an **opinionated architecture** to build enterprise software solutions with **best practices** on top of the **.NET** and the **ASP.NET Core** platforms. It provides the fundamental infrastructure, production-ready startup templates, modules, themes, tooling, guides and documentation to implement that architecture properly and **automate the details** and repetitive works as much as possible.
 
-## Getting Started
 
-* [Quick Start](Tutorials/Todo/Overall.md) is a single-part, quick-start tutorial to build a simple application with the ABP Framework. Start with this tutorial if you want to quickly understand how ABP works.
-* [Getting Started](Getting-Started.md) guide can be used to create and run ABP based solutions with different options and details.
-* [Web Application Development Tutorial](Tutorials/Part-1.md) is a complete tutorial to develop a full stack web application with all aspects of a real-life solution.
+## Getting started
 
-### UI Framework Options
+To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-ABP Framework can work with any UI framework, while the following frameworks are supported out of the box:
+Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
-<img width="500" height="56" src="images/ui-options.png" alt="ui options">
+## Add your files
 
-### Database Provider Options
+- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
+- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
 
-ABP Framework can work with any database provider, while the following providers are supported out of the box:
+```
+cd existing_repo
+git remote add origin https://git.innova.qa/dev/lawmaxdocs.git
+git branch -M main
+git push -uf origin main
+```
 
-<img width="500" height="56" src="images/db-options.png" alt="ABP Database Providers" />
+## Integrate with your tools
 
-## Exploring the Documentation
+- [ ] [Set up project integrations](https://git.innova.qa/dev/lawmaxdocs/-/settings/integrations)
 
-ABP has a **comprehensive documentation** that not only explains the ABP Framework, but also includes **guides** and **samples** to help you on creating a **maintainable solution** by introducing and discussing common **software development principle and best practices**.
+## Collaborate with your team
 
-### Architecture
+- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
+- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
+- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
+- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
+- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
 
-ABP offers a complete, modular and layered software architecture based on [Domain Driven Design](Domain-Driven-Design.md) principles and patterns. It also provides the necessary infrastructure to implement this architecture.
+## Test and Deploy
 
-* See the [Modularity](Module-Development-Basics.md) document to understand the module system.
-* [Implementing Domain Driven Design book](https://abp.io/books/implementing-domain-driven-design?ref=doc) is an ultimate guide for who want to understand and implement the DDD with the ABP Framework.
-* [Microservice Architecture](Microservice-Architecture.md) document explains how ABP helps to create a microservice solution.
-* [Multi-Tenancy](Multi-Tenancy.md) document introduces multi-tenancy and explores the ABP multi-tenancy infrastructure.
+Use the built-in continuous integration in GitLab.
 
-### Infrastructure
+- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
+- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
+- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
+- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
+- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
 
-There are a lot of features provided by the ABP Framework to achieve real world scenarios easier, like [Event Bus](Event-Bus.md), [Background Job System](Background-Jobs.md), [Audit Logging](Audit-Logging.md), [BLOB Storing](Blob-Storing.md), [Data Seeding](Data-Seeding.md), [Data Filtering](Data-Filtering.md).
+***
 
-### Cross Cutting Concerns
+# Editing this README
 
-ABP also simplifies (and even automates wherever possible) cross cutting concerns and common non-functional requirements like [Exception Handling](Exception-Handling.md), [Validation](Validation.md), [Authorization](Authorization.md), [Localization](Localization.md), [Caching](Caching.md), [Dependency Injection](Dependency-Injection.md), [Setting Management](Settings.md), etc. 
+When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
 
-### Application Modules
+## Suggestions for a good README
+Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
-Application Modules provides pre-built application functionalities;
+## Name
+Choose a self-explaining name for your project.
 
-* [**Account**](Modules/Account.md): Provides UI for the account management and allows user to login/register to the application.
-* **[Identity](Modules/Identity.md)**: Manages organization units, roles, users and their permissions, based on the Microsoft Identity library.
-* [**OpenIddict**](Modules/OpenIddict.md): Integrates to OpenIddict.
-* [**Tenant Management**](Modules/Tenant-Management.md): Manages tenants for a [multi-tenant](Multi-Tenancy.md) (SaaS) application.
+## Description
+Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
-See the [Application Modules](Modules/Index.md) document for all pre-built modules.
+## Badges
+On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
-### Startup Templates
+## Visuals
+Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
-The [Startup templates](Startup-Templates/Index.md) are pre-built Visual Studio solution templates. You can create your own solution based on these templates to **immediately start your development**.
+## Installation
+Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
-## Books
+## Usage
+Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-### Mastering ABP Framework
+## Support
+Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
 
-<img width="302" height="372" src="images/abp-book.png" alt="Mastering ABP Framework - Halil İbrahim Kalkan" />
+## Roadmap
+If you have ideas for releases in the future, it is a good idea to list them in the README.
 
-*Mastering ABP Framework* is an ultimate guide to get started and expertise with the ABP Framework. It is authored by Halil İbrahim Kalkan, the creator and the lead developer of the ABP Framework.
+## Contributing
+State if you are open to contributions and what your requirements are for accepting them.
 
-**[You can order it from Amazon now](https://www.amazon.com/Mastering-ABP-Framework-maintainable-implementing-dp-1801079242/dp/1801079242)!**
+For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
 
-### Free E-Book: Implementing Domain Driven Design
+You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
 
-<img width="441" height="331" src="images/implementing-domain-driven-design-book.png" alt="Implementing Domain Driven Design">
+## Authors and acknowledgment
+Show your appreciation to those who have contributed to the project.
 
-A **practical guide** for implementing Domain Driven Design (DDD). While the implementation details are **based on the ABP Framework** infrastructure, the basic concepts, principles and models can be applied to any solution, even if it is not a .NET solution.
+## License
+For open source projects, say how it is licensed.
 
-**[Click here to get your free copy](https://abp.io/books/implementing-domain-driven-design?ref=doc).**
-
-## ABP Community
-
-### The Source Code
-
-ABP is hosted on GitHub. See [the source code](https://github.com/abpframework).
-
-### ABP Community Web Site
-
-The [ABP Community](https://community.abp.io/) is a website to publish articles and share knowledge about the ABP Framework. You can also create content for the community!
-
-### Blog
-
-Follow the [ABP Blog](https://blog.abp.io/) to learn the latest happenings in the ABP Framework.
-
-### Samples
-
-See the [sample projects](Samples/Index.md) built with the ABP Framework.
-
-### Want to Contribute?
-
-ABP is a community-driven open source project. See [the contribution guide](Contribution/Index.md) if you want to be a part of this project.
+## Project status
+If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
