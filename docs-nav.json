@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "text": "Dashboard",
+      "path": "Dashboard/Index.md",
+      "items": [
+        {
+          "text": "Home",
+          "path": "Dashboard/Home.md"
+        },
+        {
+          "text": "Personal Dashboard",
+          "path": "Dashboard/Personal.md"
+        }
+      ]
+    },
+    {
+      "text": "Contact",
+      
+      "items": [
+        {
+          "text": "Contact Dashboard",
+          "path": "Contact/Dashboard.md"
+        },
+        {
+          "text": "All Contact",
+          "path": "Contact/AllContact.md"
+        }
+      ]
+    }
+    
+  ]
+}
