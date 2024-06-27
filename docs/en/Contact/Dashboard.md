@@ -19,3 +19,6 @@ Our startup package covers all the essentials, ensuring a robust beginning for y
 * Technical Support Module
 * Settings and Permissions Module
 
+
+
+[![Law Max](../images/lawmax-s-06.png "Logo")]
