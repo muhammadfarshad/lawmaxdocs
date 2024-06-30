@@ -20,5 +20,4 @@ Our startup package covers all the essentials, ensuring a robust beginning for y
 * Settings and Permissions Module
 
 
-
-[![Law Max](../images/lawmax-s-06.png "Logo")]
+<!-- ![Law Max](../images/lawmax-s-06.png "Logo") -->

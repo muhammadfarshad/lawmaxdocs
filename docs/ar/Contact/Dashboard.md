@@ -21,4 +21,4 @@ ABP Framework offers an **opinionated architecture** to build enterprise softwar
 * وحدة الدعم الفني
 * وحدة الإعدادات والأذونات
 
-[![Law Max](../images/lawmax-ar-s-06.png "Logo")]
+<!-- ![Law Max](../images/lawmax-ar-s-06.png "Logo") -->
