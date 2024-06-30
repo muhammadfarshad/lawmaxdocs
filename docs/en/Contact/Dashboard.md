@@ -17,16 +17,12 @@ Our startup package covers all the essentials, ensuring a robust beginning for y
 * Technical Support Module 
 * Settings and Permissions Module
 
-**[Module status](https://lawmax.app/modules)** {target="_blank"}
+<!-- **[Module status](https://lawmax.app/modules)** {target="_blank"} -->
 
-<a href="https://lawmax.app/modules" target="_blank">Law Max Modules</a>
-
-
- <!-- **[Module Link](https://www.markdownguide.org/basic-syntax/#overview)**
+**<a href="https://lawmax.app/modules" target="_blank">Module status</a>**
 
 
-
-![Law Max](../images/lawmax-s-06.png "Logo") -->
+ <!-- ![Law Max](../images/lawmax-s-06.png "Logo") -->
 
 <style>
 .blank {
