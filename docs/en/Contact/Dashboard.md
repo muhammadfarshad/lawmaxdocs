@@ -14,7 +14,7 @@ Our startup package covers all the essentials, ensuring a robust beginning for y
 * Power of Attorney Module
 * Court Forms Module
 * Contact Module
-* Technical Support Module
+* Technical Support Module 
 * Settings and Permissions Module
 
 
