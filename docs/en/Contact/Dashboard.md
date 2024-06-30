@@ -21,6 +21,4 @@ Our startup package covers all the essentials, ensuring a robust beginning for y
 
 *** [Module status] (https://lawmax.app/modules/) ***
 
-
-
 <!-- ![Law Max](../images/lawmax-s-06.png "Logo") -->
