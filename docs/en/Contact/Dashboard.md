@@ -27,6 +27,6 @@ Our startup package covers all the essentials, ensuring a robust beginning for y
 <style>
 .blank {
 target-name:new;
-target-new:tab;
+
 }
     </style>
