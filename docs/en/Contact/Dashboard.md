@@ -19,7 +19,7 @@ Our startup package covers all the essentials, ensuring a robust beginning for y
 
 
 
-**[Test Link for ABP](https://www.markdownguide.org/basic-syntax/#overview)**
+**[Module Link](https://www.markdownguide.org/basic-syntax/#overview)**
 
 
-<!-- ![Law Max](../images/lawmax-s-06.png "Logo") -->
+![Law Max](../images/lawmax-s-06.png "Logo")
